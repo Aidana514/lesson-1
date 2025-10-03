@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header{
+    padding-top: 33px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid rgb(130, 130, 130);
+}
+.borderContainer{
+    border-bottom: 1px solid rgb(130, 130, 130);
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navList li a{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    font-weight: 400;
+}
+.navList li a:hover{
+    color: black;
+}
+
+.blockUserContent{
+    margin-top: 40px;
+}
+.userContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.userName{
+    color: rgb(7, 7, 7);
+    font-size: 47px;
+    font-weight: 400;
+    width: 124px;
+}
+
+.userAboutMe{
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 400;
+    width: 145px;
+}
+
+.language{
+    transform: rotate(-90deg);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+}
+
+.eng{
+    color: black;
+}
+.bannerImg{
+    width: 943.61px;
+    height: 387px;
+    margin-left: 150px;
+}
+
+.descriptionContent p{
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.aboutMeContainer{
+    text-align: center;
+    margin-top: 81px;
+    background: rgb(246, 246, 246);
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.descriptionContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 485px;
+    margin: 0 auto;
+}
+
+.title{
+    color: rgb(7, 7, 7);
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.skillsTitle{
+    text-align: center;
+}
+
+.subTitle{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 70px;
+}
+
+.blockSkills{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.appImg{
+    width: 89px;
+    margin-bottom: 28px;
+    height: 88px;
+    object-fit: contain;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star{
+    width: 26px;
+    height: 26px;
+}
+
+.cardTitle{
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.starBlock{
+    display: flex;
+    gap: 9px;
+}
+
+
+.cardProduct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.containerPortfolio{
+    background: rgb(246, 246, 246);
+    padding-top: 112px;
+    padding-bottom: 96px;
+}
+
+.listPortfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 99px;
+    align-items: center;
+}
+
+.portfolioLink{
+    display: block;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+
+.footer{
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+.blockFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleFooter{
+    color: rgb(7, 7, 7);
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.descriptionFooter{
+    width: 260px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btnSendMessage{
+    background: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 85px;
+}
+.footerLinkContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 342px;
+    margin: 0 auto;
+}
+.footerLinkContainer img{
+    width: 40px;
+    height: 40px;
+}
+.footerLinkText{
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+

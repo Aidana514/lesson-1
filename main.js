@@ -1,6 +1,4 @@
-const array = [
-    
-];
+let array = [];
 
 const List = document.getElementById("List");
 const btn = document.getElementById("btn");
@@ -17,10 +15,13 @@ function getData(){
             
             deleteBtn.textContent = "Удалить";
             deleteBtn.className = "delete";
+            deleteBtn.addEventListener("click", ()=>{
+                array = array.filter((el) => el.id !== item.id)
+                List.innerHTML = "";
+                getData();
+            })
             textElement.textContent = item.text;
             dateElement.textContent = item.date;
-            
-
             li.append(textElement);
             li.append(dateElement);
             li.append(deleteBtn);
@@ -28,11 +29,10 @@ function getData(){
         }
     );
 }
-
-
 function addData(){
 if(textInput.value.length > 0 && dateInput.value.length > 0){
     array.push({
+        id: new Date(),
         text:textInput.value,
         date:dateInput.value,
     })
@@ -42,11 +42,7 @@ if(textInput.value.length > 0 && dateInput.value.length > 0){
 getData();
 } else{
     alert("Заполните form");
-}
-}
+}}
 getData();
 
 btn.addEventListener("click", addData);
-
-
-
